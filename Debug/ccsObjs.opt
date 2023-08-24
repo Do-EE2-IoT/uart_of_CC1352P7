@@ -1,0 +1,9 @@
+"./main_tirtos.o"
+"./uart2callback.o"
+"./syscfg/ti_devices_config.o"
+"./syscfg/ti_drivers_config.o"
+"./syscfg/ti_sysbios_config.o"
+"../cc13x2x7_cc26x2x7_tirtos7.cmd"
+-lti_utils_build_linker.cmd.genlibs
+-l"ti/devices/cc13x2x7_cc26x2x7/driverlib/bin/ticlang/driverlib.lib"
+-llibc.a
